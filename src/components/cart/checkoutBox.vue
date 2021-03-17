@@ -24,8 +24,8 @@
         },
         methods: {
             goToCheckout() {
-
-                console.log("Checkout");
+                // console.log("Checkout");
+                this.$router.push({name: "checkout"})
             }
         }
     }
