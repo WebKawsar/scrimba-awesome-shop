@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar>
-      <v-toolbar-title>Awesome Shop</v-toolbar-title>
+      <v-toolbar-title><router-link to="/" style="text-decoration: none">Awesome Shop</router-link></v-toolbar-title>
       <v-spacer></v-spacer>
 
       <span class="hidden-sm-and-up">

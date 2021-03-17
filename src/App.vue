@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <TopNav />
+    
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -22,7 +23,6 @@
         Close
       </v-btn>
     </v-snackbar>
-
   </v-app>
 </template>
 
